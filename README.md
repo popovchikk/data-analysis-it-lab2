@@ -128,3 +128,13 @@ uv run ruff check .
 
 Источник и описание набора зафиксированы в `docs/project_brief.md`. В рамках ЛР №1 для проекта выбран Bike Sharing
 Dataset UCI, а `hour.csv` указан как основной файл для анализа.
+
+## Скриншоты
+
+### Успешный запуск DAG ingest_raw в Apache Airflow
+
+![Airflow DAG](docs/screenshots/1)%20Airflow%20DAG%20ingest_raw_%20успешный%20запуск.png
+
+### Интерфейс SeaweedFS с загруженным hour.csv
+
+![SeaweedFS](docs/screenshots/2)%20Интерфейс%20SeaweedFS%20с%20файлом%20hour.csv.png
